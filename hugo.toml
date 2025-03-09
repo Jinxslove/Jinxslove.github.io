@@ -1,3 +1,48 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://jinxslove.github.io"
+languageCode = "en" # <html lang> ==> data/l10n.toml
+title = "Growing" # Website Title
+copyright = "Hugo" # Footer copyright.
+theme = "vortisil"
+pagination.pagerSize = 9
+hasCJKLanguage = true
+enableEmoji = true
+disableKinds = ["taxonomy","term"] # DO NOT MODIFY
+
+[params]
+    author = "Jinxslove" # Author name of the article.
+    logoImg = true # If false, the site title will display.
+    logoInvert = true # If the image logo needs to be turned on Image Colour Inversion.
+    math = true
+
+[params.meta]
+    description = "Jinsxlove's personal blog." # Site description
+  
+[[menus.main]]
+    identifier = "home"
+    url = "/"
+    weight = 1
+
+[[menus.main]]
+    identifier = "about"
+    url = "/about"
+    weight = 2
+
+[[menus.main]]
+    identifier = "archives"
+    url = "/posts"
+    weight = 3
+
+[module]
+    [module.hugoVersion]
+        extended = true
+        min = "0.116.0"
+
+[markup]
+    [markup.highlight]
+        style = "evergarden"
+        tabWidth = 4
+        codeFences = true
+        guessSyntax = true
+
+[outputs]
+    home = ["HTML", "JSON"]
