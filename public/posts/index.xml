@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Growing</title>
+    <link>http://localhost:39772/posts/</link>
+    <description>Recent content in Posts on Growing</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Hugo</copyright>
+    <lastBuildDate>Mon, 10 Mar 2025 00:15:44 +0800</lastBuildDate>
+    <atom:link href="http://localhost:39772/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:39772/posts/test/</link>
+      <pubDate>Mon, 10 Mar 2025 00:15:44 +0800</pubDate>
+      <guid>http://localhost:39772/posts/test/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
