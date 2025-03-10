@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Growing</title>
-    <link>https://jinxslove.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Growing</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Hugo</copyright>
     <lastBuildDate>Mon, 10 Mar 2025 00:15:44 +0800</lastBuildDate>
-    <atom:link href="https://jinxslove.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://jinxslove.github.io/posts/test/</link>
+      <link>http://localhost:1313/posts/test/</link>
       <pubDate>Mon, 10 Mar 2025 00:15:44 +0800</pubDate>
-      <guid>https://jinxslove.github.io/posts/test/</guid>
+      <guid>http://localhost:1313/posts/test/</guid>
       <description></description>
     </item>
   </channel>
